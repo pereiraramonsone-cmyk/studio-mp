@@ -15,7 +15,7 @@ export default function Page() {
     <div style={{background:'#080808', color:'white', minHeight:'100vh', fontFamily:'sans-serif'}}>
       <div style={{height:4, background:'linear-gradient(90deg,#d2b12a,#fff,#d2b12a)'}}></div>
       <div style={{textAlign:'center', padding:'30px 20px'}}>
-        <img src="/IMG-20260912-WA0023.jpg" style={{width:150,height:150,borderRadius:'50%',border:'2px solid #d2b12a',objectFit:'cover',margin:'0 auto'}}/>
+                <img src="/IMG-20260912-WA0023.jpg" style={{width:150,height:150,borderRadius:'50%',border:'2px solid #d2b12a',objectFit:'cover',margin:'0 auto', display:'block'}}/>
         <p style={{letterSpacing:6, opacity:0.5, marginTop:15, fontSize:12}}>STUDIO MP</p>
         <h2 style={{fontSize:28, margin:'10px 0'}}>Estilo que impõe respeito.</h2>
         <a href={`https://wa.me/${whats}?text=${msg}`} style={{display:'inline-block',marginTop:20,padding:'16px 30px',background:'#d2b12a',color:'black',borderRadius:30,textDecoration:'none',fontWeight:'bold'}}>AGENDAR NO WHATSAPP</a>
