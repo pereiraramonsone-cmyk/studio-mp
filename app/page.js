@@ -15,7 +15,7 @@ export default function Page() {
     <div style={{background:'#080808', color:'white', minHeight:'100vh', fontFamily:'system-ui'}}>
       <div style={{height:4, background:'linear-gradient(90deg, #0d2b12, #D4AF37, #0d2b12)'}}/>
       <div style={{textAlign:'center', padding:'40px 20px 20px', background:'radial-gradient(800px 400px at 50% 0%, #132a14 0%, #080808 70%)'}}>
-        <img src="/logo.png" style={{width:150, height:150, borderRadius:'50%', border:'2px solid #D4AF37', objectFit:'cover'}} />
+        /IMG-20260912-WA0023.jpg
         <p style={{letterSpacing:6, opacity:0.5, fontSize:12, marginTop:16}}>STUDIO MP • NOVO HAMBURGO</p>
         <h2 style={{fontSize:28, margin:'10px 0 0', fontWeight:900}}>NA RÉGUA SEMPRE</h2>
         <a href={`https://wa.me/${whats}?text=${msg}`} style={{display:'inline-block', marginTop:20, background:'linear-gradient(180deg, #F8E9A6, #D4AF37)', color:'#0f1f0a', padding:'18px 38px', borderRadius:100, fontWeight:900, textDecoration:'none'}}>AGENDAR 51 8024-8095</a>
