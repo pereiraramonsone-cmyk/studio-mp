@@ -7,87 +7,60 @@ padding:"20px",
 textAlign:"center",
 fontFamily:"Arial"
 }}>
-<h1 style={{
-color:"#d4af37",
-fontSize:"36px",
-margin:"0"
-}}>
+<h1 style={{color:"#d4af37",fontSize:"34px",margin:"0"}}>
 STUDIO MP
 </h1>
-<p style={{
-letterSpacing:"3px",
-fontSize:"12px"
-}}>
+<p style={{letterSpacing:"3px",fontSize:"11px",color:"#aaa"}}>
 NOVO HAMBURGO - RS
 </p>
 
-<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20260912-WA0023.jpg"
-style={{
-width:"100%",
-borderRadius:"16px",
+<div style={{
+display:"grid",
+gridTemplateColumns:"1fr 1fr",
+gap:"10px",
 marginTop:"20px"
-}}/>
+}}>
+<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20250912-WA0023.jpg" style={{width:"100%",borderRadius:"12px",aspectRatio:"1",objectFit:"cover"}}/>
+<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20250912-WA0024.jpg" style={{width:"100%",borderRadius:"12px",aspectRatio:"1",objectFit:"cover"}}/>
+<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20250912-WA0025.jpg" style={{width:"100%",borderRadius:"12px",aspectRatio:"1",objectFit:"cover"}}/>
+<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20250912-WA0026.jpg" style={{width:"100%",borderRadius:"12px",aspectRatio:"1",objectFit:"cover"}}/>
+</div>
 
 <div style={{
 background:"#1a1a1a",
 padding:"20px",
 borderRadius:"16px",
 marginTop:"20px",
-textAlign:"left"
+textAlign:"left",
+border:"1px solid #d4af37"
 }}>
-<h2 style={{
-color:"#d4af37",
-textAlign:"center"
-}}>
+<h2 style={{color:"#d4af37",textAlign:"center",marginTop:"0"}}>
 TABELA DE PRECOS
 </h2>
-<p>CORTE SOCIAL - R$35</p>
-<p>NA MAQUINA - R$25</p>
-<p>NA TESOURA - R$40</p>
-<p>BARBA - R$25</p>
-<p>BARBOTERAPIA - R$35</p>
-<p>SOBRANCELHA - R$15</p>
-<p>NARIZ - R$20</p>
-<p>ORELHA - R$20</p>
-<p>LUZES - R$90</p>
-<p>PLATINADO - R$120</p>
+<p>✂️ SOCIAL - R$35</p>
+<p>✂️ MAQUINA - R$25</p>
+<p>🧔 BARBA - R$25</p>
+<p>🔥 BARBOTERAPIA - R$35</p>
+<p>💡 LUZES - R$90</p>
+<p>⚪ PLATINADO - R$120</p>
 </div>
 
-<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20260912-WA0024.jpg"
-style={{
-width:"100%",
-borderRadius:"16px",
-marginTop:"20px"
-}}/>
-
-<img src="https://raw.githubusercontent.com/pereiraramonsone-cmyk/studio-mp/main/app/IMG-20260912-WA0025.jpg"
-style={{
-width:"100%",
-borderRadius:"16px",
-marginTop:"12px"
-}}/>
-
-<a href="https://wa.me/5551999999999?text=Quero%20agendar%20no%20STUDIO%20MP"
+<a href="https://wa.me/555180248090?text=Ola%20STUDIO%20MP%20quero%20agendar%20um%20horario"
 style={{
 display:"block",
 background:"#d4af37",
 color:"#000",
 padding:"18px",
 borderRadius:"12px",
-marginTop:"25px",
+marginTop:"20px",
 fontWeight:"bold",
-textDecoration:"none",
-fontSize:"18px"
+textDecoration:"none"
 }}>
 AGENDAR NO WHATSAPP
 </a>
 
-<p style={{
-marginTop:"20px",
-fontSize:"12px",
-color:"#888"
-}}>
-R. Bartolomeu de Gusmao, 1117 - Canudos
+<p style={{marginTop:"20px",fontSize:"11px",color:"#666"}}>
+R. Bartolomeu de Gusmao, 1117<br/>Canudos - Novo Hamburgo
 </p>
 </main>
 )
